@@ -1,0 +1,16 @@
+O'zgaruvchilar va ma'lumot turlari
+Ro'yxatlar (lists), tuple'lar va lug'atlar (dictionaries)
+Shartlar va tsikllar
+Funksiyalar va funksiya argumentlari
+Modullar va paketlar
+Fayllarni ochish, yozish va yopish
+Exception (ishonchsizliklar) va try, except bloklari
+Classlar va ob'ekt yaratish
+Dunder (magic) metodlar
+Inheritance (vorislik) va polimorfizm
+Modullar va ularni chaqirish
+Paketlar va tuzilmalar
+Django va Flask kabi web frameworklar bilan tanishish
+Model, View, Controller (MVC) modeli
+URL routing va view funksiyalari
+Templating tili bilan ishlash

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Talabalar baholari</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>T/r</th>
+                <th>FIO</th>
+                <th>bal1</th>
+                <th>bal2</th>
+                <th>bal3</th>
+                <th>bal4</th>
+                <th>bal5</th>
+                <th>bal6</th>
+                <th>bal7</th>
+                <th>bal8</th>
+                <th>Jami</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for a in pupils %}
+                <tr>
+                    <td>{{ a.id }}</td>
+                    <td>{{ a.name }}</td>
+                    <td>{{ a.bal1 }}</td>
+                    <td>{{ a.bal2 }}</td>
+                    <td>{{ a.bal3 }}</td>
+                    <td>{{ a.bal4 }}</td>
+                    <td>{{ a.bal5 }}</td>
+                    <td>{{ a.bal6 }}</td>
+                    <td>{{ a.bal7 }}</td>
+                    <td>{{ a.bal8 }}</td>
+                    <td>{{ a.jami }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+</body>
+</html>
